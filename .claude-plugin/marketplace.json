@@ -1,48 +1,48 @@
 {
-  "name": "hgbeigi-skills",
-  "description": "Claude Code skills from a non-programmer who runs his household and side work with Claude. Each one was used for real before it was published.",
+  "name": "hgbeigi-tools",
+  "description": "Claude Code skills, hooks, mods and small tools from a non-programmer who runs his household and side work with Claude. Each one was used for real before it was published.",
   "owner": {
     "name": "Hadi Beigi"
   },
   "plugins": [
     {
       "name": "subscription-audit",
-      "source": "./plugins/subscription-audit",
+      "source": "./skills/subscription-audit",
       "description": "Every recurring charge in your bank and card CSV exports, with a still-used column. Local files only."
     },
     {
       "name": "vet-outside-skill",
-      "source": "./plugins/vet-outside-skill",
+      "source": "./skills/vet-outside-skill",
       "description": "Check someone else's skill, plugin or MCP server before you install it."
     },
     {
       "name": "correction-to-skill",
-      "source": "./plugins/correction-to-skill",
+      "source": "./skills/correction-to-skill",
       "description": "Turn each correction into a dated rule in the file that caused the mistake."
     },
     {
       "name": "review-gate",
-      "source": "./plugins/review-gate",
+      "source": "./skills/review-gate",
       "description": "A read-only second check, with a reviewer agent, before work is called done."
     },
     {
       "name": "delegation-kit",
-      "source": "./plugins/delegation-kit",
+      "source": "./skills/delegation-kit",
       "description": "How to brief a helper agent, and the shape it hands back in."
     },
     {
       "name": "session-close",
-      "source": "./plugins/session-close",
+      "source": "./skills/session-close",
       "description": "End a session so the next one picks up without the transcript."
     },
     {
       "name": "check-the-record-first",
-      "source": "./plugins/check-the-record-first",
+      "source": "./skills/check-the-record-first",
       "description": "Search your own files before stating a fact or asking you."
     },
     {
       "name": "known-limits",
-      "source": "./plugins/known-limits",
+      "source": "./skills/known-limits",
       "description": "A register of what your tools cannot do, and the route that works instead."
     }
   ]
