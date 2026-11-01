@@ -1,0 +1,24 @@
+{
+  "name": "hgbeigi-skills",
+  "description": "Claude Code skills from a non-programmer who runs his household and side work with Claude. Each one was used for real before it was published.",
+  "owner": {
+    "name": "Hadi Beigi"
+  },
+  "plugins": [
+    {
+      "name": "subscription-audit",
+      "source": "./plugins/subscription-audit",
+      "description": "Every recurring charge in your bank and card CSV exports, with a still-used column. Local files only."
+    },
+    {
+      "name": "vet-outside-skill",
+      "source": "./plugins/vet-outside-skill",
+      "description": "Check someone else's skill, plugin or MCP server before you install it."
+    },
+    {
+      "name": "correction-to-skill",
+      "source": "./plugins/correction-to-skill",
+      "description": "Turn each correction into a dated rule in the file that caused the mistake."
+    }
+  ]
+}

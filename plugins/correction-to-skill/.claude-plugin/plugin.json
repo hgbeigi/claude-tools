@@ -1,0 +1,10 @@
+{
+  "name": "correction-to-skill",
+  "version": "0.1.0",
+  "description": "When you correct Claude, the correction becomes a dated rule in the skill or instruction file that caused the mistake, so the next session does not repeat it.",
+  "author": {
+    "name": "Hadi Beigi"
+  },
+  "license": "MIT",
+  "keywords": ["workflow", "skills", "memory", "corrections"]
+}

@@ -1,0 +1,10 @@
+{
+  "name": "subscription-audit",
+  "version": "0.1.0",
+  "description": "Finds every recurring charge in your bank and card CSV exports: cadence, last amount, paying account, and a still-used column you fill in. Reads local files only and sends nothing anywhere.",
+  "author": {
+    "name": "Hadi Beigi"
+  },
+  "license": "MIT",
+  "keywords": ["personal-finance", "subscriptions", "household", "csv"]
+}
