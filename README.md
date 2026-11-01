@@ -7,6 +7,11 @@ I am a civil engineer, not a programmer. I run my household paperwork and side p
 | [subscription-audit](plugins/subscription-audit) | Reads your bank and card CSV exports, finds every recurring charge, and gives you one list with a "still used" column. Every row is counted, so you know nothing was skipped. |
 | [vet-outside-skill](plugins/vet-outside-skill) | Before you install someone else's skill, plugin or MCP server: a scan that never runs the code, a checklist for the full read, and a written verdict. |
 | [correction-to-skill](plugins/correction-to-skill) | When you correct Claude, the correction becomes a dated rule in the file that caused the mistake, so the next session does not repeat it. |
+| [review-gate](plugins/review-gate) | Before you call work done: a second reader that cannot edit checks it against five fixed conditions. Includes the reviewer agent. |
+| [delegation-kit](plugins/delegation-kit) | How to brief a helper agent so it finishes without coming back to ask, and the report it hands back. |
+| [session-close](plugins/session-close) | Ends a session with notes and a handoff, so the next session picks up without reading the old one. |
+| [check-the-record-first](plugins/check-the-record-first) | Claude searches your own files before it tells you a fact or asks you a question. |
+| [known-limits](plugins/known-limits) | One list of what your tools cannot do and the route that works, read before anyone says "impossible". |
 
 ## Install
 

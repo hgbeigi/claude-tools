@@ -1,0 +1,10 @@
+{
+  "name": "check-the-record-first",
+  "version": "0.1.0",
+  "description": "Makes Claude search your own notes and files before it states a fact about your life or asks you a question, and name the source beside each fact.",
+  "author": {
+    "name": "Hadi Beigi"
+  },
+  "license": "MIT",
+  "keywords": ["workflow", "records", "notes", "personal"]
+}

@@ -1,0 +1,10 @@
+{
+  "name": "session-close",
+  "version": "0.1.0",
+  "description": "Ends a Claude Code session so the next one can pick up from files, not the old conversation: dated notes, every promise with a status, a paste-ready handoff prompt, and a commit of only this session's files.",
+  "author": {
+    "name": "Hadi Beigi"
+  },
+  "license": "MIT",
+  "keywords": ["workflow", "handoff", "notes", "git"]
+}

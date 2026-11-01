@@ -1,0 +1,10 @@
+{
+  "name": "review-gate",
+  "version": "0.1.0",
+  "description": "A read-only second check before work is called done. A separate reviewer blocks only on a closed list of five problems and keeps everything else as advice.",
+  "author": {
+    "name": "Hadi Beigi"
+  },
+  "license": "MIT",
+  "keywords": ["workflow", "review", "quality", "agents"]
+}

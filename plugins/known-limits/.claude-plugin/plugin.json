@@ -1,0 +1,10 @@
+{
+  "name": "known-limits",
+  "version": "0.1.0",
+  "description": "A register of what your tools cannot do and the route that works instead, read before Claude says \"impossible\", so nothing is retried blindly and nothing is given up after one look.",
+  "author": {
+    "name": "Hadi Beigi"
+  },
+  "license": "MIT",
+  "keywords": ["workflow", "limits", "troubleshooting", "agents"]
+}

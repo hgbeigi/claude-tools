@@ -19,6 +19,31 @@
       "name": "correction-to-skill",
       "source": "./plugins/correction-to-skill",
       "description": "Turn each correction into a dated rule in the file that caused the mistake."
+    },
+    {
+      "name": "review-gate",
+      "source": "./plugins/review-gate",
+      "description": "A read-only second check, with a reviewer agent, before work is called done."
+    },
+    {
+      "name": "delegation-kit",
+      "source": "./plugins/delegation-kit",
+      "description": "How to brief a helper agent, and the shape it hands back in."
+    },
+    {
+      "name": "session-close",
+      "source": "./plugins/session-close",
+      "description": "End a session so the next one picks up without the transcript."
+    },
+    {
+      "name": "check-the-record-first",
+      "source": "./plugins/check-the-record-first",
+      "description": "Search your own files before stating a fact or asking you."
+    },
+    {
+      "name": "known-limits",
+      "source": "./plugins/known-limits",
+      "description": "A register of what your tools cannot do, and the route that works instead."
     }
   ]
 }

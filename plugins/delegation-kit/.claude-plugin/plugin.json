@@ -1,0 +1,10 @@
+{
+  "name": "delegation-kit",
+  "version": "0.1.0",
+  "description": "How to brief a helper agent so it can finish without coming back to ask, and how it hands back a report you can trust without redoing the work.",
+  "author": {
+    "name": "Hadi Beigi"
+  },
+  "license": "MIT",
+  "keywords": ["workflow", "agents", "delegation", "handback"]
+}
