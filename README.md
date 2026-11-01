@@ -24,7 +24,7 @@ Hooks (`hooks/`), mods for the Claude Code app (`mods/`), standalone tools (`too
 In Claude Code:
 
 ```
-/plugin marketplace add OWNER/claude-tools
+/plugin marketplace add hgbeigi/claude-tools
 /plugin install subscription-audit@hgbeigi-tools
 ```
 
