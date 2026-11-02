@@ -42,6 +42,10 @@ The scripts need Python 3.8 or later and use only its standard library.
 
 Read any skill before you install it, these included. That is what `vet-outside-skill` is for.
 
+## Privacy
+
+Nothing is collected or sent anywhere. See [PRIVACY.md](PRIVACY.md).
+
 ## Licence
 
 MIT. See [LICENSE](LICENSE).

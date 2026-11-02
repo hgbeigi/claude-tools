@@ -15,5 +15,6 @@
   "homepage": "https://github.com/hgbeigi/claude-tools/tree/main/skills/subscription-audit",
   "repository": "https://github.com/hgbeigi/claude-tools",
   "documentationUrl": "https://github.com/hgbeigi/claude-tools/blob/main/skills/subscription-audit/skills/subscription-audit/SKILL.md",
-  "supportUrl": "https://github.com/hgbeigi/claude-tools/issues"
+  "supportUrl": "https://github.com/hgbeigi/claude-tools/issues",
+  "privacyPolicyUrl": "https://github.com/hgbeigi/claude-tools/blob/main/PRIVACY.md"
 }
