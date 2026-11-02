@@ -6,5 +6,14 @@
     "name": "Hadi Beigi"
   },
   "license": "MIT",
-  "keywords": ["workflow", "handoff", "notes", "git"]
+  "keywords": [
+    "workflow",
+    "handoff",
+    "notes",
+    "git"
+  ],
+  "homepage": "https://github.com/hgbeigi/claude-tools/tree/main/skills/session-close",
+  "repository": "https://github.com/hgbeigi/claude-tools",
+  "documentationUrl": "https://github.com/hgbeigi/claude-tools/blob/main/skills/session-close/skills/session-close/SKILL.md",
+  "supportUrl": "https://github.com/hgbeigi/claude-tools/issues"
 }

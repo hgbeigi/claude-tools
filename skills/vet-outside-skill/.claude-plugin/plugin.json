@@ -6,5 +6,15 @@
     "name": "Hadi Beigi"
   },
   "license": "MIT",
-  "keywords": ["security", "skills", "plugins", "mcp", "supply-chain"]
+  "keywords": [
+    "security",
+    "skills",
+    "plugins",
+    "mcp",
+    "supply-chain"
+  ],
+  "homepage": "https://github.com/hgbeigi/claude-tools/tree/main/skills/vet-outside-skill",
+  "repository": "https://github.com/hgbeigi/claude-tools",
+  "documentationUrl": "https://github.com/hgbeigi/claude-tools/blob/main/skills/vet-outside-skill/skills/vet-outside-skill/SKILL.md",
+  "supportUrl": "https://github.com/hgbeigi/claude-tools/issues"
 }
