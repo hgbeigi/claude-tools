@@ -1,12 +1,14 @@
 # Claude Code tools from real household work
 
+Free Claude Code skills and plugins for household paperwork and for working well with Claude: a subscription audit for bank and card CSV exports, a safety check for other people's skills, a review step before work is called done, and more. Each one installs as a Claude Code plugin, and each skill is a plain `SKILL.md` folder you can read first.
+
 I am a civil engineer, not a programmer. I run my household paperwork and side projects with Claude Code, and these are skills, hooks, mods and small tools I built for myself and used for real before cleaning them up for anyone to use. More come out as they are cleaned up.
 
 ## Skills
 
 | Skill | What it does |
 |---|---|
-| [subscription-audit](skills/subscription-audit) | Reads your bank and card CSV exports, finds every recurring charge, and gives you one list with a "still used" column. Every row is counted, so you know nothing was skipped. |
+| [subscription-audit](skills/subscription-audit) | Read-only, local, no login. Reads the bank and card CSV exports you download, finds every recurring charge, and gives you one list with a "still used" column. Every row is counted, so you know nothing was skipped. It never signs in to a bank and never cancels anything. |
 | [vet-outside-skill](skills/vet-outside-skill) | Before you install someone else's skill, plugin or MCP server: a scan that never runs the code, a checklist for the full read, and a written verdict. |
 | [correction-to-skill](skills/correction-to-skill) | When you correct Claude, the correction becomes a dated rule in the file that caused the mistake, so the next session does not repeat it. |
 | [review-gate](skills/review-gate) | Before you call work done: a second reader that cannot edit checks it against five fixed conditions. Includes the reviewer agent. |
