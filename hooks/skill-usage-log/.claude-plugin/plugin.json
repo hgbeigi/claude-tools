@@ -1,0 +1,20 @@
+{
+  "name": "skill-usage-log",
+  "version": "0.1.0",
+  "description": "Logs which skills and agents actually run, including skills loaded through an agent, and reports the ones that never ran.",
+  "author": {
+    "name": "Hadi Beigi"
+  },
+  "license": "MIT",
+  "keywords": [
+    "hooks",
+    "skills",
+    "agents",
+    "usage"
+  ],
+  "homepage": "https://github.com/hgbeigi/claude-tools/tree/main/hooks/skill-usage-log",
+  "repository": "https://github.com/hgbeigi/claude-tools",
+  "documentationUrl": "https://github.com/hgbeigi/claude-tools/blob/main/hooks/skill-usage-log/README.md",
+  "supportUrl": "https://github.com/hgbeigi/claude-tools/issues",
+  "privacyPolicyUrl": "https://github.com/hgbeigi/claude-tools/blob/main/PRIVACY.md"
+}

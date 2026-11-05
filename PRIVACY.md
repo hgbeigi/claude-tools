@@ -1,11 +1,11 @@
 # Privacy
 
-Last updated: 2 November 2026.
+Last updated: 5 November 2026.
 
 These plugins run inside Claude Code on your own computer. The author runs no server and collects nothing.
 
-- **What they read:** files on your computer that you point them to, such as bank and card CSV exports you downloaded (subscription-audit), your own notes (check-the-record-first), or another skill's files (vet-outside-skill).
-- **What they write:** files on your computer, such as `subscriptions.csv`, dated notes, or rules in your own instruction files.
+- **What they read:** files on your computer that you point them to, such as bank and card CSV exports you downloaded (subscription-audit), your own notes (check-the-record-first), or another skill's files (vet-outside-skill). commit-privacy-guard reads the files staged for a commit. ask-after-searching reads the end of the current session's transcript. skill-trigger-test reads your session transcripts only when you ask for that measure, and prints only counts.
+- **What they write:** files on your computer, such as `subscriptions.csv`, dated notes, or rules in your own instruction files. Three hooks (ask-after-searching, brief-check, skill-usage-log) keep a small log in `claude-tools-logs` in your home Claude folder. It holds times, session ids, decisions, lengths, hashes, and skill and agent names, never the text of a question, a prompt or a file.
 - **What they send:** nothing. The scripts use only Python's standard library and make no network calls. Nothing reaches the author.
 - **What Claude sees:** what you and the skill show it in your session, under your own agreement with Anthropic. The skills tell Claude not to paste transaction lines, amounts or account numbers into web searches or other tools.
 - **Retention:** the author keeps nothing. You delete the output files whenever you want.

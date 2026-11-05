@@ -1,0 +1,20 @@
+{
+  "name": "unpushed-reminder",
+  "version": "0.1.0",
+  "description": "Reminds you of commits that exist only on this computer, at most once an hour.",
+  "author": {
+    "name": "Hadi Beigi"
+  },
+  "license": "MIT",
+  "keywords": [
+    "hooks",
+    "git",
+    "backup",
+    "workflow"
+  ],
+  "homepage": "https://github.com/hgbeigi/claude-tools/tree/main/hooks/unpushed-reminder",
+  "repository": "https://github.com/hgbeigi/claude-tools",
+  "documentationUrl": "https://github.com/hgbeigi/claude-tools/blob/main/hooks/unpushed-reminder/README.md",
+  "supportUrl": "https://github.com/hgbeigi/claude-tools/issues",
+  "privacyPolicyUrl": "https://github.com/hgbeigi/claude-tools/blob/main/PRIVACY.md"
+}

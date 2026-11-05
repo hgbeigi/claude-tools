@@ -1,0 +1,8 @@
+{
+  "requests": [
+    {"id": 1, "text": "Can you add up the bills in this folder?", "expected": "invoice-summary"},
+    {"id": 2, "text": "Write up the meeting from yesterday", "expected": "meeting-notes"},
+    {"id": 3, "text": "How much do these invoices come to?", "expected": "invoice-summary"},
+    {"id": 4, "text": "Plan my four days in the mountains", "expected": "travel-plan"}
+  ]
+}

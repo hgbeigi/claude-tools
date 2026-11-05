@@ -1,0 +1,20 @@
+{
+  "name": "brief-check",
+  "version": "0.1.0",
+  "description": "Warns when a brief for a helper agent misses its Goal, Read, Required, Done or Output section.",
+  "author": {
+    "name": "Hadi Beigi"
+  },
+  "license": "MIT",
+  "keywords": [
+    "hooks",
+    "agents",
+    "delegation",
+    "workflow"
+  ],
+  "homepage": "https://github.com/hgbeigi/claude-tools/tree/main/hooks/brief-check",
+  "repository": "https://github.com/hgbeigi/claude-tools",
+  "documentationUrl": "https://github.com/hgbeigi/claude-tools/blob/main/hooks/brief-check/README.md",
+  "supportUrl": "https://github.com/hgbeigi/claude-tools/issues",
+  "privacyPolicyUrl": "https://github.com/hgbeigi/claude-tools/blob/main/PRIVACY.md"
+}

@@ -17,9 +17,28 @@ I am a civil engineer, not a programmer. I run my household paperwork and side p
 | [check-the-record-first](skills/check-the-record-first) | Claude searches your own files before it tells you a fact or asks you a question. |
 | [known-limits](skills/known-limits) | One list of what your tools cannot do and the route that works, read before anyone says "impossible". |
 
+## Hooks
+
+A Claude Code hook runs by itself at a set moment, so it holds where a written rule only asks. Each one below is a plugin. They read local files only and send nothing anywhere.
+
+| Hook | What it does |
+|---|---|
+| [commit-privacy-guard](hooks/commit-privacy-guard) | Refuses a git commit that holds bank statements, spreadsheets, card or account numbers, a transaction ledger, or your private names. |
+| [ask-after-searching](hooks/ask-after-searching) | When Claude asks you something without searching first, the question goes back once with a note to search your files. |
+| [brief-check](hooks/brief-check) | Warns when a brief for a helper agent (a subagent) misses its goal, its sources or what "done" means. |
+| [skill-usage-log](hooks/skill-usage-log) | Logs which Claude skills and agents actually run, and lists the ones that never did. |
+| [unpushed-reminder](hooks/unpushed-reminder) | Reminds you of git commits that exist only on this computer, at most once an hour. |
+| [weekday-date-check](hooks/weekday-date-check) | Flags a weekday that does not match its date in a draft, such as Monday 18 November when the 18th is a Wednesday. |
+
+## Tools
+
+| Tool | What it does |
+|---|---|
+| [skill-trigger-test](tools/skill-trigger-test) | Tests whether a Claude skill's description would make it load, against saved requests or the words you really type. |
+
 ## Coming next
 
-Hooks (`hooks/`), mods for the Claude Code app (`mods/`), standalone tools (`tools/`) and writing standards (`standards/`). Each folder fills as items are cleaned up and tested.
+Mods for the Claude Code app (`mods/`), more standalone tools (`tools/`) and writing standards (`standards/`). Each folder fills as items are cleaned up and tested.
 
 ## Install
 

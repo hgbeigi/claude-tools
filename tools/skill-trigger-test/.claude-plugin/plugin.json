@@ -1,0 +1,20 @@
+{
+  "name": "skill-trigger-test",
+  "version": "0.1.0",
+  "description": "Tests whether your skill descriptions would make the right skill load, against saved requests or the words you really type.",
+  "author": {
+    "name": "Hadi Beigi"
+  },
+  "license": "MIT",
+  "keywords": [
+    "skills",
+    "testing",
+    "descriptions",
+    "workflow"
+  ],
+  "homepage": "https://github.com/hgbeigi/claude-tools/tree/main/tools/skill-trigger-test",
+  "repository": "https://github.com/hgbeigi/claude-tools",
+  "documentationUrl": "https://github.com/hgbeigi/claude-tools/blob/main/tools/skill-trigger-test/README.md",
+  "supportUrl": "https://github.com/hgbeigi/claude-tools/issues",
+  "privacyPolicyUrl": "https://github.com/hgbeigi/claude-tools/blob/main/PRIVACY.md"
+}

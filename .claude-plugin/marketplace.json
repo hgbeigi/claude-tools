@@ -44,6 +44,41 @@
       "name": "known-limits",
       "source": "./skills/known-limits",
       "description": "A register of what your tools cannot do, and the route that works instead."
+    },
+    {
+      "name": "commit-privacy-guard",
+      "source": "./hooks/commit-privacy-guard",
+      "description": "Refuses a commit that holds statements, ledgers, card numbers or private names."
+    },
+    {
+      "name": "ask-after-searching",
+      "source": "./hooks/ask-after-searching",
+      "description": "Sends a question back once when Claude asks without searching first."
+    },
+    {
+      "name": "brief-check",
+      "source": "./hooks/brief-check",
+      "description": "Warns when a helper-agent brief misses a needed section."
+    },
+    {
+      "name": "skill-usage-log",
+      "source": "./hooks/skill-usage-log",
+      "description": "Logs which skills and agents really run, and lists the ones that never did."
+    },
+    {
+      "name": "unpushed-reminder",
+      "source": "./hooks/unpushed-reminder",
+      "description": "Reminds you of commits never pushed, at most once an hour."
+    },
+    {
+      "name": "weekday-date-check",
+      "source": "./hooks/weekday-date-check",
+      "description": "Flags a weekday that does not match its date in a draft."
+    },
+    {
+      "name": "skill-trigger-test",
+      "source": "./tools/skill-trigger-test",
+      "description": "Tests whether a skill's description would make it load."
     }
   ]
 }

@@ -1,0 +1,20 @@
+{
+  "name": "commit-privacy-guard",
+  "version": "0.1.0",
+  "description": "Refuses a git commit that holds bank statements, spreadsheets, card or account numbers, or your private names. Local only.",
+  "author": {
+    "name": "Hadi Beigi"
+  },
+  "license": "MIT",
+  "keywords": [
+    "hooks",
+    "git",
+    "privacy",
+    "pre-commit"
+  ],
+  "homepage": "https://github.com/hgbeigi/claude-tools/tree/main/hooks/commit-privacy-guard",
+  "repository": "https://github.com/hgbeigi/claude-tools",
+  "documentationUrl": "https://github.com/hgbeigi/claude-tools/blob/main/hooks/commit-privacy-guard/README.md",
+  "supportUrl": "https://github.com/hgbeigi/claude-tools/issues",
+  "privacyPolicyUrl": "https://github.com/hgbeigi/claude-tools/blob/main/PRIVACY.md"
+}

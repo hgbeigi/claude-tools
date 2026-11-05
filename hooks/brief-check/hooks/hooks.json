@@ -1,0 +1,16 @@
+{
+  "hooks": {
+    "PreToolUse": [
+      {
+        "matcher": "Agent|Task",
+        "hooks": [
+          {
+            "type": "command",
+            "command": "sh \"${CLAUDE_PLUGIN_ROOT}/scripts/run.sh\" \"${CLAUDE_PLUGIN_ROOT}/scripts/brief_check.py\"",
+            "timeout": 30
+          }
+        ]
+      }
+    ]
+  }
+}

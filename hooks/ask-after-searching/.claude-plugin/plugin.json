@@ -1,0 +1,20 @@
+{
+  "name": "ask-after-searching",
+  "version": "0.1.0",
+  "description": "Sends a question back to Claude once when it asks you something without searching first.",
+  "author": {
+    "name": "Hadi Beigi"
+  },
+  "license": "MIT",
+  "keywords": [
+    "hooks",
+    "workflow",
+    "questions",
+    "search"
+  ],
+  "homepage": "https://github.com/hgbeigi/claude-tools/tree/main/hooks/ask-after-searching",
+  "repository": "https://github.com/hgbeigi/claude-tools",
+  "documentationUrl": "https://github.com/hgbeigi/claude-tools/blob/main/hooks/ask-after-searching/README.md",
+  "supportUrl": "https://github.com/hgbeigi/claude-tools/issues",
+  "privacyPolicyUrl": "https://github.com/hgbeigi/claude-tools/blob/main/PRIVACY.md"
+}

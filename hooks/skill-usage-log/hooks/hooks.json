@@ -1,0 +1,27 @@
+{
+  "hooks": {
+    "PreToolUse": [
+      {
+        "matcher": "Skill",
+        "hooks": [
+          {
+            "type": "command",
+            "command": "sh \"${CLAUDE_PLUGIN_ROOT}/scripts/run.sh\" \"${CLAUDE_PLUGIN_ROOT}/scripts/usage_log.py\"",
+            "timeout": 30
+          }
+        ]
+      }
+    ],
+    "SubagentStart": [
+      {
+        "hooks": [
+          {
+            "type": "command",
+            "command": "sh \"${CLAUDE_PLUGIN_ROOT}/scripts/run.sh\" \"${CLAUDE_PLUGIN_ROOT}/scripts/usage_log.py\"",
+            "timeout": 30
+          }
+        ]
+      }
+    ]
+  }
+}

@@ -1,0 +1,20 @@
+{
+  "name": "weekday-date-check",
+  "version": "0.1.0",
+  "description": "Flags a weekday that does not match its date in the text Claude writes, such as Monday 18 November when the 18th is a Wednesday.",
+  "author": {
+    "name": "Hadi Beigi"
+  },
+  "license": "MIT",
+  "keywords": [
+    "hooks",
+    "dates",
+    "writing",
+    "drafts"
+  ],
+  "homepage": "https://github.com/hgbeigi/claude-tools/tree/main/hooks/weekday-date-check",
+  "repository": "https://github.com/hgbeigi/claude-tools",
+  "documentationUrl": "https://github.com/hgbeigi/claude-tools/blob/main/hooks/weekday-date-check/README.md",
+  "supportUrl": "https://github.com/hgbeigi/claude-tools/issues",
+  "privacyPolicyUrl": "https://github.com/hgbeigi/claude-tools/blob/main/PRIVACY.md"
+}
