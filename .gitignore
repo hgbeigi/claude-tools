@@ -3,4 +3,3 @@ __pycache__/
 *.pyc
 .DS_Store
 !tools/subscription-script/sample-exports/*.csv
-!skills/subscription-audit/examples/sample-exports/*.csv

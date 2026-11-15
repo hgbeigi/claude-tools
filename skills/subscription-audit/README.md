@@ -10,7 +10,7 @@ Read-only, local, no login. Reads the bank and card CSV exports you download you
 
 ## Sample data
 
-`examples/sample-exports/` holds two made-up exports (a card and a checking account, 12 months). The rows are invented: well-known merchant names with made-up dates and amounts, and no real person or account. Expected result from the script Claude writes: both files `MATCH`, 7 recurring charges, about 283.93 a month, 12 person-to-person rows left out.
+`examples/sample-exports/` holds two made-up exports, saved as `.txt` files that are CSV inside (a card and a checking account, 12 months). The rows are invented: well-known merchant names with made-up dates and amounts, and no real person or account. Expected result from the script Claude writes: both files `MATCH`, 7 recurring charges, about 283.93 a month, 12 person-to-person rows left out.
 
 ## Install
 

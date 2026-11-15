@@ -4,7 +4,7 @@ _Write a small script that follows this, and run it. Standard library only. It r
 
 ## 1. Read every row, and count it twice
 
-- Open each `.csv` under the folder (not the output file). Decode as UTF-8 with a byte-order mark, and fall back to cp1252.
+- Open each `.csv` under the folder (not the output file). The two sample files end in `.txt`, because the directory accepts no `.csv` files; they are CSV inside, so read them the same way. Decode as UTF-8 with a byte-order mark, and fall back to cp1252.
 - Count 1: parse with a CSV reader, dropping blank rows. Count 2: a quote-aware scan of the raw text that counts lines holding any data, with no CSV reader. A header row is not a record.
 - A file is `MATCH` only when the file count, the rows read and the rows kept all agree. Otherwise it is `MISMATCH` (with the counts), or `REFUSED` when the first row has no date, description and amount columns. Never guess at a refused file and never report it as read.
 
