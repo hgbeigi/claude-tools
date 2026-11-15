@@ -1,6 +1,6 @@
-# Categories, read by subscriptions.py
+# Categories, read by your audit script
 
-_Edit this file to change how rows are tagged. `scripts/subscriptions.py` reads the six tables below on every run, and nothing else is hard-coded. Patterns are Python regular expressions matched against the upper-cased description. The first match wins, so put specific rows above general ones. Write `\|` for an alternation inside a table cell. A blank flow means "decide by sign": money out is `spend`, money in is `refund` on a card and `income` on a bank account._
+_Edit this file to change how rows are tagged. your audit script reads the six tables below on every run, and nothing else is hard-coded. Patterns are Python regular expressions matched against the upper-cased description. The first match wins, so put specific rows above general ones. Write `\|` for an alternation inside a table cell. A blank flow means "decide by sign": money out is `spend`, money in is `refund` on a card and `income` on a bank account._
 
 _Add your own merchants at the top of Patterns: your utility, your insurer, your school. Keep amounts, account numbers and transaction lines out of this file._
 

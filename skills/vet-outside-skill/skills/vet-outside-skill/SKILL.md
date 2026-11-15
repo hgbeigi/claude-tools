@@ -11,14 +11,14 @@ Goal: nothing from outside runs with access to the user's files until it has bee
 
 - Nothing installs straight from a marketplace or a link. Get a copy first.
 - Nothing from the folder runs while it is being vetted.
-- A clean scan proves only that these patterns are absent. The full read still happens.
+- A clean scan proves only that these patterns are absent. The patterns are a search aid, not a verdict. The full read still happens.
 - Reject anything that logs in to, or fills forms on, a bank, card, insurer or government site.
 
 ## Steps
 
 1. Source and trust: who publishes it, how many people maintain it, the last change, open security issues. A well-known publisher lowers the risk; it does not remove the read.
 2. Get a copy without running it, pinned to a version or commit, into a new, empty scratch folder. Clone or download only; no install script.
-3. Scan: `python -I scripts/scan_skill.py <folder>`. Explain every HIGH line, every binary file and every file the scan could not read.
+3. Scan without running anything: search every file in the folder, with the Grep tool, for each pattern in `reference/patterns.md`, and list every file that cannot be read as text (images, archives, programs). Count the files read. Explain every HIGH line, every binary file and every file you could not read.
 4. Read every file in full, scripts included, against `reference/checklist.md`.
 5. Decide: rebuild the idea yourself when it is small; adopt unchanged only when it is safe and cannot reasonably be rebuilt; reject anything that reaches money, logins or credentials.
 6. An adopted item is tried on fake data first, then copied in pinned, never set to auto-update.

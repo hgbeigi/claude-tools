@@ -11,7 +11,7 @@ does not use it. A file is MATCH only when both counts and the rows written
 agree. A file that is not a transaction export is reported and skipped,
 never guessed at.
 
-Category guesses come from the tables in ../reference/categories.md, which you
+Category guesses come from the tables in categories.md next to it, which you
 can edit without touching this script. Payments between people (Zelle, Venmo,
 Cash App) are counted and left out. Transfers between your own accounts and
 card payments are not charges and are left out.
@@ -45,7 +45,7 @@ if hasattr(sys.stdout, "reconfigure"):
     sys.stdout.reconfigure(encoding="utf-8", errors="replace")
 
 HERE = Path(__file__).resolve().parent
-CATEGORIES = HERE.parent / "reference" / "categories.md"
+CATEGORIES = HERE / "categories.md"
 ADDED = "added"
 COLUMNS = ["merchant", "group", "category", "kind", "cadence", "count", "last_amount", "median_amount",
            "monthly_equivalent", "first_seen", "last_seen", "paying_account", "all_accounts", "status",

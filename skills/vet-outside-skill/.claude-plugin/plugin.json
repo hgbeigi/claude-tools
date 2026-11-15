@@ -1,6 +1,6 @@
 {
   "name": "vet-outside-skill",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "description": "Checks someone else's skill, plugin, MCP server or script before you install it: a pattern scan that never runs the code, a full-read checklist, and a written adopt, rebuild or reject verdict.",
   "author": {
     "name": "Hadi Beigi"
